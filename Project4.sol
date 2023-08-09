@@ -22,7 +22,7 @@ contract DegenToken is ERC20("Degan", "DOGN"), Ownable {
 
     function store() public pure returns (string memory) {
         return
-            "1. Naruto Headband = 500 \n 2. Madara Susano = 1200 \n 3. Fireball Punch = 300 \n 4. Itachi Sharingaan = 800  \n 5. Kurama 9 tailed Beast = 1000";
+            "1. Chandigarh = 1000 \n 2. Mohali = 2000 \n 3. Panchkula = 3000 \n 4. Kharar = 4000  \n 5. Ambala = 5000";
     }
 
     function redeemTokens(uint256 choice) external payable {
